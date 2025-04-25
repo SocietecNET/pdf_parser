@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+Pillow
+pypdfium2
+img2table
+pdfminer.six
