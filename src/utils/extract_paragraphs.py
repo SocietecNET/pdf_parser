@@ -20,7 +20,7 @@ def intersects(bbox1, bbox2):
 
 
 def extract_paragraphs(pdf_file, dpi=200):
-    pages = list(extract_pages(pdf_file, laparams=LAParams(), caching=False))
+    pages = extract_pages(pdf_file, laparams=LAParams(), caching=False)
     page_list = []
     for page in pages:
         page_height = page.height
